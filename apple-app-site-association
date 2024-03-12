@@ -14,11 +14,11 @@
                   "comment": "Matches any URL with a path that starts with /reset-password/ used to reset user password."
                },
                {
-                  "/": "/kyc/*/selfPhoto",
+                  "/": "/selfPhoto/*",
                   "comment": "Matches any URL with a path that starts with /reset-password/ used to reset user password."
                },
                {
-                  "/": "/kyc/*/livenessVideo",
+                  "/": "/liveness/*",
                   "comment": "Matches any URL with a path that starts with /reset-password/ used to reset user password."
                },
                {
