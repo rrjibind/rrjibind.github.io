@@ -9,16 +9,13 @@
                   "exclude": true,
                   "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
                },
+                {
+                  "/": "/*",
+                  "?": { "model": "reset-password", "id": "*","token":"*","isBankUser":"*" },
+                  "comment": "Matches any URL with a path that starts with /reset-password/ used to reset user password."
+               },
                {
                   "/": "/reset-password/*",
-                  "comment": "Matches any URL with a path that starts with /reset-password/ used to reset user password."
-               },
-               {
-                  "/": "/selfPhoto/*",
-                  "comment": "Matches any URL with a path that starts with /reset-password/ used to reset user password."
-               },
-               {
-                  "/": "/liveness/*",
                   "comment": "Matches any URL with a path that starts with /reset-password/ used to reset user password."
                },
                {
