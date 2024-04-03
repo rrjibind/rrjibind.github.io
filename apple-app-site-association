@@ -9,6 +9,18 @@
                   "exclude": true,
                   "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
                },
+{
+                  "/": "*",
+                  "comment": "Matches any URL with a path that starts with /setenv/ used to switch between different env"
+               },
+{
+                  "/": "/*",
+                  "comment": "Matches any URL with a path that starts with /setenv/ used to switch between different env"
+               },
+ {
+                  "/": "/*/?*&*&*&*&*",
+                  "comment": "Matches any URL with a path that starts with /setenv/ used to switch between different env"
+               },
                 {
                   "/": "/*",
                   "?": { "model": "reset-password", "id": "*","token":"*","isBankUser":"*" },
